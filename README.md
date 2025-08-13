@@ -1,15 +1,28 @@
 # 📰 Auto News Fetcher & Dashboard
 
-A Django-based web application that automatically fetches the latest **India news headlines** from NewsAPI and displays them in a simple dashboard.
+A simple **Django-based project** to fetch the latest news from an API in **one click** and display them in a clean, responsive table view.
 
 ---
 
-## 📦 Features
-- Fetches **top headlines** from NewsAPI for India (`country=in`)
-- Stores news in a Django model (`NewsArticle`)
-- Displays headlines in a simple web dashboard
-- Supports manual news fetching using a custom Django management command
-- Can be extended for scheduled background fetching (CRON/APScheduler)
+## 📌 Features
+- Fetch latest news on demand with a single click.
+- Display news with **Title, Source, Publish Date, and Summary**.
+- Responsive UI with Bootstrap styling.
+- Easy to set up and run locally.
 
 ---
+
+## 🛠️ Requirements
+- **Python 3.8+**
+- **Django 4.x or later**
+- News API access 
+
+---
+
+After the setup run 
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver 
+This Command In Terminal . 
+<img width="1886" height="1002" alt="" src="https://github.com/sp5465437/Auto-News-Fetcher-Dashboard/raw/main/Output_Images/Output.png" />
 
