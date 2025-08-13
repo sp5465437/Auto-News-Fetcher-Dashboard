@@ -19,10 +19,13 @@ A simple **Django-based project** to fetch the latest news from an API in **one 
 
 ---
 
-After the setup run 
+🚀 Running the Project
+After completing the setup, run the following commands in your terminal:
+
 python manage.py makemigrations
 python manage.py migrate
-python manage.py runserver 
-This Command In Terminal . 
+python manage.py runserver
+
+
 <img width="1886" height="1002" alt="" src="https://github.com/sp5465437/Auto-News-Fetcher-Dashboard/raw/main/Output_Images/Output.png" />
 
