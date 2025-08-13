@@ -24,7 +24,7 @@ A simple **Django-based project** to fetch the latest news from an API in **one 
 
 - **python manage.py makemigrations**
 - **python manage.py migrate**
-- python manage.py runserver
+- **python manage.py runserver**
 
 ---
 
