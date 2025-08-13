@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'news_app',
+    'newsapp',
 ]
 
 MIDDLEWARE = [
@@ -122,9 +122,3 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-CRONJOBS = [
-    ('*/30 * * * *', 'django.core.management.call_command', ['fetch_news']),
-]
-
-NEWS_API_KEY = os.getenv("NEWS_API_KEY", "189bfa84fda245e5a2af6b468a6b04ba")
