@@ -13,7 +13,7 @@ def fetch_news():
         if not News.objects.filter(title=title).exists():
             News.objects.create(
                 title=title,
-                summary=article.get('description', ''),
+                summary = article.get("description") or "No summary available",
                 source=article['source']['name'],
                 published_at=parse_datetime(article['publishedAt'])
             )
